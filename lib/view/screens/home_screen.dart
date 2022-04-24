@@ -45,12 +45,12 @@ class _HomeScreenState extends State<HomeScreen> {
         );
       case Status.ERROR:
         return Center(
-          child: Text('Please try again latter!!!'),
+          child: Text('PPor favor, tente novamente!!!'),
         );
       case Status.INITIAL:
       default:
         return Center(
-          child: Text('Search the song by Artist'),
+          child: Text('Pesquise a música por Artista'),
         );
     }
   }
@@ -99,7 +99,7 @@ class _HomeScreenState extends State<HomeScreen> {
                             Icons.search,
                             color: Colors.grey,
                           ),
-                          hintText: 'Enter Artist Name',
+                          hintText: 'Coloque o nome do artista',
                         )),
                   ),
                 ),
